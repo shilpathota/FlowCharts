@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Page-1" id="Tt1kkHZvHX2ZIXlipHle">
-    <mxGraphModel dx="1450" dy="1015" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="921" dy="1015" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9hVojgO-kaeBEverVEj9-18" value="Shared Responsibility Model" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1;fontSize=20;horizontal=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry x="-71" y="-19" width="684" height="431" as="geometry" />
+          <mxGeometry x="-36" y="13" width="649" height="349" as="geometry" />
         </mxCell>
         <mxCell id="9hVojgO-kaeBEverVEj9-1" value="AWS Responsibility" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;arcSize=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="9" y="212" width="165" height="128" as="geometry" />
