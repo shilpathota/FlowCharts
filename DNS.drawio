@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="SV5RT880LLUnqiIU5Fzf">
-    <mxGraphModel>
+    <mxGraphModel dx="682" dy="1023" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" edge="1" parent="1" source="wjGuUtEmKwiPwhNDp5TZ-1" target="wjGuUtEmKwiPwhNDp5TZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-1" value="Kube-apiserver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="-32" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-2" value="Exposes Kubernetes HTTP API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-32" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" edge="1" parent="1" source="wjGuUtEmKwiPwhNDp5TZ-4" target="wjGuUtEmKwiPwhNDp5TZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-4" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="52" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-5" value="Key value store for all API server data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="109" y="52" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" edge="1" parent="1" source="wjGuUtEmKwiPwhNDp5TZ-7" target="wjGuUtEmKwiPwhNDp5TZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-7" value="Kube-scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-8" value="Looks for pod not bound to node and assign pod to node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="103" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" edge="1" parent="1" source="wjGuUtEmKwiPwhNDp5TZ-10" target="wjGuUtEmKwiPwhNDp5TZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-10" value="kube- controller-manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="238" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-11" value="Controllers to implement kubernetes API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="109" y="238" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" edge="1" parent="1" source="wjGuUtEmKwiPwhNDp5TZ-13" target="wjGuUtEmKwiPwhNDp5TZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-13" value="cloud-controller-manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="331" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wjGuUtEmKwiPwhNDp5TZ-14" value="Integrates with underlying cloud provider" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="113" y="331" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
